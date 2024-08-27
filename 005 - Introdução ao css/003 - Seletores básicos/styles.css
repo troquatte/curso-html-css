@@ -1,0 +1,17 @@
+p {
+  font-size: 21px;
+}
+
+.texto-destacado {
+  background: yellow;
+  font-size: 33px;
+}
+
+header {
+  background: red;
+}
+
+#header {
+  background: blue;
+  color: #fff;
+}

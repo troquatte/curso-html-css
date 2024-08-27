@@ -1,0 +1,35 @@
+/* 
+  Unidades absolutas têm valores fixos, que não mudam com base 
+  em outros elementos ou propriedades. 
+  
+  Elas são mais adequadas para situações onde o design deve manter 
+  dimensões específicas, independentemente do contexto.
+
+  - px (pixels):
+    Representa um ponto na tela. 
+    É a unidade mais comum para definir tamanhos no CSS.
+    Exemplo: width: 200px;
+
+  - cm (centímetros):
+    Usada para especificar tamanhos físicos. 
+    Raramente usada em layouts para a web.
+    Exemplo: width: 5cm;
+    
+  - mm (milímetros):
+    Como o centímetro, é mais usada em contextos de impressão.
+    Exemplo: margin: 10mm;
+  
+  - in (polegadas):
+    Uma polegada equivale a 2,54 cm.
+    Exemplo: width: 1in;
+  
+  - pt (pontos):
+    Um ponto é equivalente a 1/72 de uma polegada. 
+    Comumente usado na tipografia.
+    Exemplo: font-size: 12pt;
+
+  - pc:
+    1pc equivale a 12 pontos. 
+    Também usado em tipografia.
+    Exemplo: font-size: 1pc;
+*/

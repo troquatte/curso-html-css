@@ -1,0 +1,9 @@
+/* 
+  Combinador Descendente  
+  O combinador descendente seleciona todos os elementos 
+  que são descendentes de um elemento pai específico.
+*/
+
+article span {
+  color: blue;
+}

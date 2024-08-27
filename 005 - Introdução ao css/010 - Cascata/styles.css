@@ -1,0 +1,36 @@
+/* 
+  Cascata
+  A cascata no CSS refere-se à maneira como o navegador resolve conflitos 
+  entre diferentes regras que podem ser aplicadas ao mesmo elemento.
+
+  A ordem das regras é importante: quando duas regras têm a mesma especificidade, 
+  a última regra no CSS será aplicada.
+*/
+
+/* Regra 1 */
+p {
+  color: red;
+}
+
+/* Regra 2 */
+p {
+  color: blue;
+}
+
+/* Regra 3 */
+p.especial {
+  color: green;
+}
+
+/* Regra 4 */
+p.especial {
+  color: orange !important;
+}
+
+/*
+  A declaração !important pode ser usada para sobrescrever 
+  a cascata e a especificidade. 
+  
+  Porém, deve ser usada com cautela, pois pode dificultar 
+  a manutenção do CSS e cria conflitos difíceis de resolver.
+*/

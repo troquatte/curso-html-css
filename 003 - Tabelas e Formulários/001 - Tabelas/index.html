@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo Completo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um exemplo completo de um documento HTML."
+    />
+  </head>
+  <body>
+    <!-- Estrutura Básica (table, thead, tbody, tfoot, tr, th, td) -->
+    <h1>Estrutura Básica</h1>
+    <table border="1">
+      <caption>
+        Tútulo da tabela
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Cabeçalho 1</th>
+          <th>Cabeçalho 2</th>
+          <th>Cabeçalho 3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Dado 1</td>
+          <td>Dado 2</td>
+          <td>Dado 3</td>
+        </tr>
+
+        <tr>
+          <td>Dado 1</td>
+          <td>Dado 2</td>
+          <td>Dado 3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>-</td>
+          <td>100</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- Mesclagem de Células (colspan, rowspan) -->
+    <h2>Mesclagem de Células</h2>
+    <table border="1">
+      <caption>
+        Tútulo da tabela
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Cabeçalho 1</th>
+          <th>Cabeçalho 2</th>
+          <th>Cabeçalho 3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Dado 1</td>
+          <td>Dado 2</td>
+          <td>Dado 3</td>
+        </tr>
+
+        <tr>
+          <td>Dado 1</td>
+          <td rowspan="3">Dado 2</td>
+          <td rowspan="3">Dado 3</td>
+        </tr>
+
+        <tr>
+          <td>Dado 1</td>
+        </tr>
+        <tr>
+          <td>Dado 1</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td colspan="2">100</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

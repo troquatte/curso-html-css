@@ -1,0 +1,37 @@
+/* 
+  Especificidade
+  Especificidade determina quais regras CSS têm precedência quando múltiplas 
+  regras podem ser aplicadas ao mesmo elemento.
+  
+  Hierarquia de Especificidade:
+  - Inline styles (atributo style no HTML) têm a maior especificidade;
+  - IDs têm mais peso que classes, atributos ou classes;
+  - Atributos ou classes têm mais peso que seletores de elemento;
+  - Elementos têm a menor especificidade;
+
+  No Css temos graus de importância e o maior é o 1000 ( 0.0.0.0 ).
+  Esse valor representa Binários de importância:
+
+    0      0   0      0
+  Inline, Id, Class, Tags
+
+*/
+
+/* Seletor de tipo */
+p {
+  color: blue; /* Especificidade = 0-0-0-1 */
+}
+
+article p {
+  color: pink; /* Especificidade = 0-0-0-2 */
+}
+
+/* Seletor de classe */
+.class-p {
+  color: green; /* Especificidade = 0-0-1-0 */
+}
+
+/* Seletor de ID */
+#id-p {
+  color: red; /* Especificidade = 0-1-0-0 */
+}

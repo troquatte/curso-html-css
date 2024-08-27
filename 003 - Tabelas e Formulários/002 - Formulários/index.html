@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo Completo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um exemplo completo de um documento HTML."
+    />
+  </head>
+  <body>
+    <form action="..." method="get">
+      <label for="name">Nome:</label>
+      <input
+        id="name"
+        type="text"
+        name="outro_nome"
+        value=""
+        placeholder="Adicioner seu nome"
+        minlength="2"
+        maxlength="10"
+        required
+      />
+
+      <br />
+
+      <label>
+        Email:
+        <!-- Elemento input para entrada de email -->
+        <input
+          type="email"
+          name="email"
+          placeholder="Adicione seu email"
+          required
+        />
+      </label>
+      <br />
+
+      <label>
+        Mensagem:
+        <!-- Elemento textarea para entrada de texto longo -->
+        <textarea name="mensagem" placeholder="Adicione seu email"></textarea>
+      </label>
+      <br />
+
+      <input type="checkbox" name="checkbox-name" value="1" />
+      <input type="checkbox" name="checkbox-name" value="2" />
+      <input type="checkbox" name="checkbox-name" value="3" />
+      <input type="checkbox" name="checkbox-name" value="4" />
+      <br />
+
+      <input type="radio" name="radio-name" value="1" />
+      <input type="radio" name="radio-name" value="2" />
+      <input type="radio" name="radio-name" value="3" />
+      <input type="radio" name="radio-name" value="4" />
+      <br />
+
+      <!-- Outros -->
+      <input type="color" />
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="file" />
+      <input type="hidden" />
+      <input type="month" />
+      <input type="number" />
+      <input type="password" />
+      <input type="range" />
+      <input type="reset" />
+      <input
+        type="search"
+        id="pesquisa"
+        name="q"
+        list="sugestoes"
+        placeholder="Digite sua pesquisa..."
+      />
+      <datalist id="sugestoes">
+        <option value="Maçã"></option>
+        <option value="Banana"></option>
+        <option value="Laranja"></option>
+        <option value="Pera"></option>
+        <option value="Uva"></option>
+      </datalist>
+
+      <input type="tel" />
+      <input type="time" />
+      <input type="url" placeholder="https://www.example.com" />
+      <input type="week" />
+
+      <select>
+        <option selected>Selecione</option>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+
+        <optgroup label="Grupo 1">
+          <option value="1">Valor 1</option>
+          <option value="2">Valor 2</option>
+          <option value="3">Valor 3</option>
+        </optgroup>
+
+        <optgroup label="Grupo 2" disabled>
+          <option>Opção 3.1</option>
+          <option>Opção 3.2</option>
+          <option>Opção 3.3</option>
+        </optgroup>
+      </select>
+
+      <button type="submit">enviar</button>
+      <button type="reset">resetar</button>
+    </form>
+  </body>
+</html>

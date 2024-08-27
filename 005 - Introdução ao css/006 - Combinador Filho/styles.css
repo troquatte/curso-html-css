@@ -1,0 +1,9 @@
+/* 
+  Combinador Filho >
+  O combinador filho seleciona apenas os elementos 
+  que são filhos diretos de um elemento pai.
+*/
+
+article > p {
+  color: red;
+}

@@ -1,0 +1,20 @@
+/* 
+  Herança
+  A herança no CSS refere-se à capacidade de certos estilos 
+  aplicados a um elemento pai serem transmitidos aos seus 
+  elementos filhos.
+
+  Propriedades como color, font-family, e line-height são herdadas por padrão.
+*/
+
+body {
+  color: pink;
+  font-family: Arial, Helvetica;
+  line-height: 130%;
+}
+
+article {
+  color: red;
+  font-family: Helvetica;
+  line-height: 160%;
+}

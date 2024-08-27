@@ -1,0 +1,14 @@
+a:hover {
+  color: green;
+}
+
+a[target="_blank"] {
+  font-size: 25px;
+  text-decoration: none;
+  color: red;
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: red;
+}

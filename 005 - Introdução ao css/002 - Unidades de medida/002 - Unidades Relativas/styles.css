@@ -1,0 +1,38 @@
+/* 
+  Unidades relativas são baseadas em outras propriedades 
+  ou elementos do layout, tornando-as mais flexíveis e responsivas. 
+  
+  - em:
+    Relativa ao tamanho da fonte do elemento pai. 
+    Muito usada para espaçamentos e tamanhos de fonte.
+    Exemplo: padding: 2em; (se a fonte do elemento pai for 16px, o padding será 32px)
+
+  - rem (root em):
+    Relativa ao tamanho da fonte do elemento raiz (<html>). 
+    Mantém consistência, mesmo com hierarquias complexas.
+    Exemplo: font-size: 1rem; (se o tamanho da fonte do <html> for 16px, a fonte será 16px)
+
+  - % (porcentagem):
+    Relativa ao valor da propriedade do elemento pai. 
+    Usada para larguras, alturas e margens.
+    Exemplo: width: 50%; ( se a largura do elemento pai for 400px, a largura será 200px )
+    
+  - vw (viewport width):
+    Relativa à largura da janela de visualização. 1vw é 1% da largura da viewport.
+    Exemplo: width: 50vw; (se a largura da viewport for 1000px, a largura será 500px)
+    
+  - dvw significa Dynamic Viewport Width. 
+    É uma unidade de medida no CSS que representa 1% da largura dinâmica da viewport. 
+    Assim como o dvh, o dvw ajusta-se às mudanças na largura da viewport, que podem 
+    ocorrer em dispositivos móveis quando a orientação da tela é alterada ou quando 
+    elementos da interface, como barras laterais ou menus, são exibidos ou ocultados.
+
+  - vh (viewport height): 
+    Relativa à altura da janela de visualização. 1vh é 1% da altura da viewport.
+    Exemplo: height: 50vh; (se a altura da viewport for 800px, a altura será 400px)
+
+  - dvh significa Dynamic Viewport Height (Altura da Viewport Dinâmica). 
+    É uma unidade relativa que representa 1% da altura da viewport em seu estado dinâmico, 
+    ou seja, considerando mudanças que ocorrem na viewport durante a navegação, como a aparição 
+    ou desaparecimento de barras de ferramentas do navegador.
+*/

@@ -1,0 +1,10 @@
+/* 
+  Combinador Adjacente + 
+  O combinador adjacente seleciona o primeiro elemento 
+  que aparece imediatamente após um elemento específico.
+*/
+
+h1 + p {
+  margin: 50px 0;
+  color: grey;
+}
