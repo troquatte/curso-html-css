@@ -1,0 +1,15 @@
+.texto-sublinhado {
+  text-decoration: underline;
+}
+
+.texto-sobrelinhado {
+  text-decoration: overline;
+}
+
+.texto-tachado {
+  text-decoration: line-through;
+}
+
+.texto-combinado {
+  text-decoration: underline overline line-through;
+}

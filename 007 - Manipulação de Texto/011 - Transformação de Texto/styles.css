@@ -1,0 +1,11 @@
+.texto-maiusculas {
+  text-transform: uppercase;
+}
+
+.texto-minusculas {
+  text-transform: lowercase;
+}
+
+.texto-capitalizado {
+  text-transform: capitalize;
+}

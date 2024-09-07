@@ -1,0 +1,11 @@
+.linha-normal {
+  line-height: normal; /* Valor padrão */
+}
+
+.linha-1-5 {
+  line-height: 1.5; /* 1.5 vezes a altura da linha padrão */
+}
+
+.linha-2 {
+  line-height: 2; /* 2 vezes a altura da linha padrão */
+}

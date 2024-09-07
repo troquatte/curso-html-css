@@ -1,0 +1,16 @@
+.texto-vermelho {
+  color: red; /* Nome da cor */
+}
+
+.texto-azul {
+  color: #0000ff; /* Valor hexadecimal */
+}
+
+.texto-verde {
+  color: rgb(0, 128, 0); /* Valor RGB */
+  color: rgba(0, 128, 0, 1); /* Valor RGBA */
+}
+
+.texto-laranja {
+  color: hsl(30, 100%, 50%); /* Valor HSL */
+}

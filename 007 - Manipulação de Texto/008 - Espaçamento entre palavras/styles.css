@@ -1,0 +1,11 @@
+.palavras-normal {
+  word-spacing: normal; /* Valor padrão */
+}
+
+.palavras-5 {
+  word-spacing: 5px; /* 5 pixels de espaçamento entre palavras */
+}
+
+.palavras-10 {
+  word-spacing: 10px; /* 10 pixels de espaçamento entre palavras */
+}

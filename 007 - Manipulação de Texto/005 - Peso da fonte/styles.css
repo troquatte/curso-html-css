@@ -1,0 +1,15 @@
+.peso-normal {
+  font-weight: normal;
+}
+
+.peso-negrito {
+  font-weight: bold;
+}
+
+.peso-mais-negrito {
+  font-weight: bolder;
+}
+
+.peso-mais-leve {
+  font-weight: lighter;
+}

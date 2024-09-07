@@ -1,0 +1,11 @@
+.letras-normal {
+  letter-spacing: normal; /* Valor padrão */
+}
+
+.letras-1 {
+  letter-spacing: 1px; /* 1 pixel de espaçamento entre letras */
+}
+
+.letras-2 {
+  letter-spacing: 2px; /* 2 pixels de espaçamento entre letras */
+}
