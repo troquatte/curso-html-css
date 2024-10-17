@@ -1,0 +1,24 @@
+/* 
+  Definição: 
+  Media queries permitem aplicar estilos CSS diferentes com base 
+  em características do dispositivo, como largura da tela, altura, 
+  orientação, etc.
+*/
+
+@media (max-width: 768px) {
+  body {
+    background: pink;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: red;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background: blue;
+  }
+}

@@ -1,0 +1,32 @@
+/* 
+A propriedade border-style define o estilo da borda. Os estilos disponíveis incluem:
+
+- solid: Uma linha sólida
+- dashed: Uma linha pontilhada
+- dotted: Uma linha de pontos
+- double: Duas linhas sólidas
+- groove: Linha com aparência de entalhe
+- ridge: Linha com aparência de relevo
+- inset: Linha com aparência de embutido
+- outset: Linha com aparência de saliente
+ 
+*/
+
+.borda-solida {
+  /* border-style: solid;
+  border-width: 20px;
+  border-color: black; */
+
+  border: black solid 20px;
+}
+
+.borda-pontilhada {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: red;
+}
+
+.borda-dupla {
+  border-style: double;
+  border-width: 4px;
+}

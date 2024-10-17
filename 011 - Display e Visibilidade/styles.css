@@ -1,0 +1,54 @@
+/* 
+
+display: block
+Define um elemento como um bloco de nível. 
+Ocupa toda a largura disponível.
+
+display: inline
+Define um elemento como inline (em linha). 
+Ocupa apenas a largura necessária.
+
+display: none;
+O elemento não é exibido e não ocupa espaço no layout.
+
+display: flex
+Aprenada no nosso Youtube
+
+*/
+
+.block {
+  display: block;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.inline {
+  display: inline;
+  background-color: lightgreen;
+}
+
+.none {
+  display: none;
+}
+
+/* 
+
+visibility: visible
+O elemento é visível.
+Exemplo: Elementos padrão na página.
+
+visibility: hidden
+O elemento não é visível, mas ainda ocupa espaço no layout.
+
+*/
+.visible {
+  visibility: visible;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.hidden {
+  visibility: hidden;
+  background-color: lightcoral;
+  margin: 10px 0;
+}
