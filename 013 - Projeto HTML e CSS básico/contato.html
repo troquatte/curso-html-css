@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projeto HTML e CSS básico.</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto HTML e CSS básico." />
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/logo.png" alt="Logo Vida Fullstack" />
+
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+
+          <li>
+            <a href="./sobre.html">Sobre</a>
+          </li>
+
+          <li>
+            <a href="./contato.html" class="active">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form method="post">
+        <label>
+          Qual é seu nome?
+          <input type="text" placeholder="seu nome..." />
+        </label>
+
+        <label>
+          Qual é o seu email?
+          <input type="email" placeholder="seu@email.com.br" />
+        </label>
+
+        <label>
+          Como posso te ajudar?
+          <textarea placeholder="descreva aqui..."></textarea>
+        </label>
+
+        <button type="submit">enviar</button>
+      </form>
+    </main>
+
+    <footer><strong>Feito com carinho por: </strong> Dener Troquatte</footer>
+  </body>
+</html>
